@@ -57,6 +57,7 @@ position: relative;
     background-size: cover;
 }
 .image2{
+    opacity: 0.8;
     background-image: url(himag.png);
     height: 660px;
     background-size: 82%;
@@ -96,13 +97,14 @@ position: relative;
     border: solid orangered;
     border-radius: 40px;
     box-shadow: 0px 0px 17px orangered;
+    
 
 }
 .img2:hover{
     border: solid yellow ;
     box-shadow: 0px 0px 17px yellow;
     transform:translateY(-10px);
-    transition: background 0.7s , transform 0.6s;
+    transition: background 0.2s , transform 0.2s;
     /* transform : scale(1.02); */
     /* transition: 0.1s ease-in-out; */
 }  
@@ -160,9 +162,8 @@ position: relative;
 
 .box3{
     padding-left:10%;
-    font-size: 40px;
-    font-family: "Permanent Marker", serif;
-    min-height: 5vh;
+    font-size: 40px; 
+    font-weight: 800;
 }
 .box3 span{
     font-size:50px;
@@ -229,6 +230,8 @@ position: relative;
 }
 #text3 button{
     font-size: 1.9em;
+    padding: 2px 10px 2px 10px ;
+    border: solid white;
     background-color: black;
 }
 
@@ -254,7 +257,6 @@ position: relative;
     display: flex;
     gap: 8%;
     font-size: 25px;
-    text-decoration: none ;
 }
 .img6{
     background-image:  url(dial.png);
@@ -312,8 +314,9 @@ position: relative;
 #button {
     margin-top: 50px;
     font-size: 25px;
-    border: solid wheat;
-    background-color: maroon;
+    padding: 5px 10px 5px 10px ;
+    border: solid white;
+    background-color: black;
 }
 .contact-right form{
     padding: 4% 10% 5% 6%;
