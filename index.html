@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="uppersection">
+    <div class="image"></div>
+    <div class="coloum">
+        <h3><a href="#">Home</a></h3>
+        <h3><a href="#">About</a></h3>
+        <h3><a href="#">Portfolio</a></h3>
+        <h3><a href="#">contact</a></h3>
+    </div>
+</div>
+
+    <div class="middlesection">
+        <div class="image2">
+            <div class="text">
+                <h2 class="A">Hi , I'm</h2>
+                <h2 class="C" >Harsh Kumar</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="box2">
+        <div class="grid-item">
+            <div class="img2"></div>
+            <div class="text2">
+                <h3>ABOUT ME</h3>
+                <p>I am a computer science student from Delhi with a strong passion for technology. I enjoy exploring new advancements, tools, and programming techniques while constantly seeking opportunities to enhance my skills. I am particularly interested in fields like artificial intelligence, machine learning, and software development, striving to build a solid foundation for impactful contributions in the tech world.</p>                
+                
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links " onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div> 
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <!-- <li><span>c++</span><br> Basic</li>
+                        <li><span>Web Development</span><br> HTML<br>CSS</li>
+                        <li><span>SQL</span><br>Basic</li> -->
+                        <li><span>WEB DEVELOPER</span><br></li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents " id="Experience">
+                    <ul>
+                        <li><span>I've experienced so many great things</span><br></li>
+                        <li><span></span><br</li>
+                        <li><span></span><br</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents " id="Education">
+                    <ul>
+                        <li><span>Bachelor of Technology (B.Tech) <br> Computer Science
+                        </span><br></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="box3">
+        <p><span>M</span>y <span>W</span>ork</p>
+    </div>
+    
+    <div class="box4">
+        <div class="grid-item">
+            <div class="colm">
+            <div class="img3">
+                <div class="layer">
+                    <h3>AMAZON CLOUD</h3>
+                    <P>This cloud helps me to imporve myself</P>
+                    <a href="#"></a>
+                </div>
+            </div>
+
+            <div class="img4">
+                <div class="layer">
+                    <h3>LANDING WEBSITE</h3>
+                    <P>This cloud helps me to imporve myself</P>
+                    <a href="#"></a>
+                </div>
+
+            </div>    
+            <div class="img5">
+                <div class="layer">
+                    <h3>PALLALAX WEBSITE</h3>
+                    <P>This cloud helps me to imporve myself</P>
+                    <a href="#"></a>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="box5">
+        <div id="text3">
+            <a href="#"><button>see more</button></a>            
+        </div>
+    </div>
+
+
+<div class="box6">
+        <p class="contact">Contact Me</p>
+    <div class="lastbox">
+
+        <div class="photo">
+
+            <div class="upbox">
+                <div class="img67">
+                    <div class="img6"></div> <br>   
+                    <div class="img7"></div><br>
+                </div>
+                <div class="ct67">
+                    <p>1234567890</p><br>
+                    <p>xyz@gmail.com</p><br>
+                </div>
+            </div>
+
+            <div class="downbox">
+                <a href="#"><div class="img8"></div></a>
+                <a href="#"><div class="img9"></div></a>
+                <a href="#"><div class="img10"></div></a>
+                <a href="#" download><div class="img11"></div></a>
+            </div>
+
+            <div class="tab-titles">
+                <button id="button"><p class="tab-links active" onclick="opentab('feedback')">feedback</p></button>
+            </div> 
+        <div>
+            
+        </div>
+        </div>
+        <div class="contact-right">
+        <div class="tab-contents" id="feedback">
+        <form>
+            <input type="text" name="name" placeholder="your name" required>
+            <input type="email" name="email" placeholder="your  email" required>
+            <textarea name="message" rows="6" placeholder="your message" required></textarea>
+            <div class="tab-titles">
+                <button id="button" type="submit"><p class="tab-links active-link" onclick="myFunction('submit')">submit</p></button>
+                <p id="demo"></p>
+            </div> 
+
+            <!-- <button id="button" type="submit">submit</button> -->
+        </form>
+        </div>
+    </div> 
+</div>
+<div id="cr">THIS IS MADE BY HARSH</div>
+    
+    
+    
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        function myFunction() {
+        document.getElementById("demo").innerHTML = "complete the form";
+        }
+        
+        </script>
+</html>
+</html>
