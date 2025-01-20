@@ -358,7 +358,7 @@ form input , form textarea{
 }
 
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:450px){
     .image2,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.signature{
         position: relative;
         background-size: cover;
@@ -440,4 +440,5 @@ form input , form textarea{
         background-size: 60%;
     }
     .img11{
-    background-size: 60%;}}
+    background-size: 60%;}
+} 
