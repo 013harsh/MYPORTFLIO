@@ -373,6 +373,7 @@ form input , form textarea{
     }
     .text{
         margin: 120px 40px;
+        border: solid red;
     }
     .image2{
         background-size: 150%;
