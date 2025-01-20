@@ -372,8 +372,7 @@ form input , form textarea{
         gap:20px;
     }
     .text{
-        margin: 120px 40px;
-        border: solid red;
+        /* margin: 120px 40px; */
     }
     .image2{
         background-size: 150%;
