@@ -113,6 +113,7 @@ position: relative;
 }  
 .text2{
     padding-top: 10px;
+    padding-right: 10px;
     margin-left:  50px;
     min-height: 500px;
     width: 580px;
@@ -358,7 +359,7 @@ form input , form textarea{
 }
 
 
-@media(max-width:500px){
+@media(max-width:450px){
     .image2,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.signature{
         position: relative;
         background-size: cover;
@@ -373,6 +374,9 @@ form input , form textarea{
     }
     .text{
         margin: 10px 40px;
+    }
+    .text2{
+        width: 400px;
     }
     .image2{
         background-size: 150%;
@@ -397,6 +401,7 @@ form input , form textarea{
     .text2{
         padding-top: 30px;
         width: 400px;
+        padding: 6px;
     }    
     .box4{
         display: grid;
