@@ -372,7 +372,7 @@ form input , form textarea{
         gap:20px;
     }
     .text{
-        margin: 80px 40px;
+        margin: 120px 40px;
     }
     .image2{
         background-size: 150%;
@@ -428,7 +428,6 @@ form input , form textarea{
         display: flex;
         gap: 8%;
         font-size: 25px;
-        background-color: red;
     }
     .img8{
         background-size: 60%;
