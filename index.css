@@ -359,7 +359,7 @@ form input , form textarea{
 }
 
 
-@media(max-width:450px){
+@media(max-width:600px){
     .image2,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.signature{
         position: relative;
         background-size: cover;
@@ -369,7 +369,7 @@ form input , form textarea{
     }
     
     .coloum{
-        margin-left:30px ;
+        margin-left:25% ;
         gap:15px;
     }
     .text{
