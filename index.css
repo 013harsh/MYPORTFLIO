@@ -403,7 +403,8 @@ form input , form textarea{
         grid-template-columns: repeat(auto-fit , minmax(320px, 1fr));
         margin-top: 60px;
     }
-    .colm{
+    .colm
+        border: solid red;
         height: 1400px;
         padding-left: 15%;
         display: block;
